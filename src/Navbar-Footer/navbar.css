@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+img
+/* {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+} */
+
+.navbar-color{
+    color: #3d4152;
+}
+ul,li , p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbarMain{
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+}
+.mainNavbar{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.menu ul li{
+    padding: 0 20px;
+    font-size: 16px;
+}
+.line::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    background: #3d4152;
+}
+.menu ul li a p:hover{
+    color: yellow;
+}
+
+.menu ul li a img:hover{
+    color: yellow;
+}

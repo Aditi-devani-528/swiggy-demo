@@ -1,0 +1,110 @@
+.carousel-control-prev-icon {
+  background-color: #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.carousel-control-next-icon {
+  background-color: #f0e6e6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: -254px;
+  left: 83%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.carousel-control-next {
+  position: absolute;
+  top: -254px;
+  left: 88%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: black;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+/* restro card slider */
+
+.restroCards {
+  display: flex;
+}
+.restroCardTop {
+  width: 273px;
+  height: 182px;
+}
+.restroCardTop img,
+.deliveryCardTop img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.imgContent {
+  padding-bottom: 8px;
+  height: calc(81px);
+  background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+  border-radius: 20px;
+}
+.imgp {
+  line-height: 22px;
+  letter-spacing: -0.5px;
+}
+.restroCard {
+  /* transform: scale(1); */
+  transition: 0.5s;
+}
+
+/* .restroCard:hover{
+    transform: scale(0.9);
+} */
+
+/* food deivery */
+
+.foodDeliveryCards {
+  padding: 0px;
+  list-style: none;
+  margin-block-end: 0px;
+  display: grid;
+  -webkit-box-align: start;
+  align-items: start;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin: 32px 16px;
+}
+
+.deliveryCardTop {
+  height: 220px;
+}
+
+.elips {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
