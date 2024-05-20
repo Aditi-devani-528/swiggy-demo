@@ -4,6 +4,8 @@ import SliderHome from "../../MainPages/home/SliderHome";
 import TopRestro from "./TopRestro";
 import FoodDelivery from "./FoodDelivery";
 import BestPlaces from "./BestPlaces";
+import BestCuisines from "./BestCuisines";
+import Explore from "./Explore";
 function Home() {
   return (
     <>
@@ -12,6 +14,8 @@ function Home() {
       <TopRestro/>
       <FoodDelivery/>
       <BestPlaces/>
+      <BestCuisines/>
+      <Explore/>
     </>
   );
 }

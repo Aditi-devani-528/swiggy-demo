@@ -14,6 +14,8 @@ function FoodDelivery() {
 
   const [product, setProduct] = useState([]);
 
+  // const api=process.env.API_END_POINT/all-product;
+
   useEffect(() => {
     axios
       .get("http://localhost:8000/all-product")
@@ -97,7 +99,7 @@ function FoodDelivery() {
                   return (
                     <div className="deliveryCard">
                       <div className="deliveryCardTop position-relative">
-                        <img src={`http://localhost:8000/${item.productImg}`}  alt="" />
+                        <img src={`${item.productImg}`}  alt="" />
                         <div className="imgContent align-content-end position-absolute bottom-0 end-0 start-0 ps-2 pe-1">
                           <div className="imgp fw-bolder fs-4 text-white">
                             {item.offers}
