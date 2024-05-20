@@ -3,8 +3,6 @@ import FoodDelivery from "./MainPages/home/FoodDelivery";
 import Home from "./MainPages/home/Home";
 import TopRestro from "./MainPages/home/TopRestro";
 import AddProduct from "./form/AddProduct";
-import Hedar from "./Hedar";
-import MainMenu from "./MainMenu";
 
 
 function App() {
